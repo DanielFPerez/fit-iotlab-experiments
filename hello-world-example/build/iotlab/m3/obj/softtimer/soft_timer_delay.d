@@ -1,0 +1,25 @@
+build/iotlab/m3/obj/softtimer/soft_timer_delay.o: \
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/softtimer/soft_timer_delay.c \
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/softtimer/soft_timer_.h \
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer.h \
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/event.h \
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/handler.h \
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer_delay.h \
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/timer.h \
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/handler.h \
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/debug.h \
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/nvic.h \
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer.h \
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/printf.h
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/softtimer/soft_timer_delay.c :
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/softtimer/soft_timer_.h :
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer.h :
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/event.h :
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/handler.h :
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer_delay.h :
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/timer.h :
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/handler.h :
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/debug.h :
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/nvic.h :
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer.h :
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/printf.h :

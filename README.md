@@ -1,4 +1,4 @@
-# fit-iotlab-experiments
+# FIT IOT LAB Experiments Set-up
 Setup experiments in the real IoT testbed from FIT in France. 
 
 # Initial set-up
