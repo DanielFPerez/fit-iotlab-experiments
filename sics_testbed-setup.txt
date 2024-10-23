@@ -1,0 +1,144 @@
+REAL TESTBED:
+=============
+
+1. Install the ARM compiler to generate binary that will go into the IoT active nodes
+=====================================================================================
+
+Clone the following contiki repository in the branch "tagalong": 
+https://github.com/cperezpenichet/contiki-ng-priv
+* Install ARM compiler following the instructions in: 
+https://github.com/contiki-ng/contiki-ng/wiki/Toolchain-installation-on-Linux 
+(or https://docs.contiki-ng.org/en/develop/doc/getting-started/Toolchain-installation-on-Linux.html)
+After the ARM compiler folder has been created and its location is added to the $PATH variable, proceed.
+
+
+2. Compile the tagalong.c in 
+============================
+https://github.com/cperezpenichet/TagAlong/tree/master/contiki/active-nodes 
+
+
+* Make sure you have the right deployment specified in
+TagAlong/contiki/active-nodes/project-conf.h
+
+* Make sure you have the correct MAC address mapping in 
+TagAlong/contiki/active-nodes/deployment_mappings.h
+
+* Add a "Makefile.local" file in TagAlong/contiki/active-nodes specifying where the contiki-ng-priv project is 
+File content: "CONTIKI = $(HOME)/Documents/00_NI-DNA/MLCarrSched_work/contiki-ng-priv"
+
+Once in the directory "TagAlong/contiki/active-nodes/" (where the new Makefile.local file is located as well),
+Compile with 
+$ make TARGET=zoul BOARD=firefly tagalong 
+
+This generates a binary called "tagalong.zoul"
+
+
+3. RUN THE EXPERIMENT IN TESTBED
+================================
+
+Create project folder in testbed
+-------------------------------------
+in the sics testbed, create a project folder (e.g., /home/user/project), with three files: 
+1. tagalong.zoul: binary compiled above
+2. hosts: list of nodes to consider, one by line. 
+E.g.: 
+pi13
+pi08
+3. platform: containing the work "zoul"
+
+TESTBED COMMANDS
+----------------
+See a testbed experiment example in ssh:pitestbed//usr/testbed/examples/jn5168-hello-world
+
+Check node status with 
+$ testbed-scripts/testbed.py status
+
+Create and run the project with
+$ testbed-scripts/testbed.py create --copy-from ./project --start
+
+Download intermediate results with 
+$ testbed-scripts/testbed.py download
+
+List all jobs running
+$ testbed-scripts/testbed.py list
+
+Stop the job with
+$ testbed-scripts/testbed.py stop
+
+Ssh to a pi device: 
+ssh -i ~/.ssh/id_rsa.pub danielp@pi25
+(required a password)
+
+
+Running the project will install the tagalong.zoul binary in each of the Iot devices
+
+Running a SICS testbed scenario creates folder similar to 
+TagAlong/Notebooks/Data/testbed/performance/sics/5634_tagalong/ 
+
+TagAlong/Notebooks/Data/testbed/performance/sics/5634_tagalong/logs/log.txt
+represents aggregated log of all nodes in the sics testbed
+E.g., node 13 is the server. 
+Nodes are sending messages to server. Server reports that in the log file. 
+ 
+ 20.384723	ID:13	[INFO: ND        ] 17 -> (13:-59, )
+ == 17 reports to 13 that has neighbor 13
+
+ 22.486392	ID:13	[INFO: ND        ] 17 -> (15:-38, 8:-76, 13:-59, )
+ == same as above
+
+Neighbor discovery ends at a timepoint specified in another script: 
+
+     263.398358	ID:16	[INFO: ND        ] RX Multicast! BC*N
+     263.410884	ID:16	[INFO: ND        ] B RX on BC conn!!: BC*N
+     263.422666	ID:17	[INFO: ND        ] RX Multicast! BC*N
+     263.423350	ID:16	[INFO: ND        ] Should Stop!!.
+     263.432520	ID:15	[INFO: ND        ] RX Multicast! BC*N
+     263.435216	ID:17	[INFO: ND        ] B RX on BC conn!!: BC*N
+     263.436110	ID:16	Link size: 8
+     263.445369	ID:10	[INFO: ND        ] RX Multicast! BC*N
+     263.447663	ID:17	[INFO: ND        ] Should Stop!!.
+     263.448674	ID:16	0x00,0x12,0x4b,0x00,0x19,0x32,0xe5,0xea,
+     263.457531	ID:15	[INFO: ND        ] B RX on BC conn!!: BC*N
+     263.458136	ID:10	[INFO: ND        ] B RX on BC conn!!: BC*N
+     263.460578	ID:17	Link size: 8
+     263.461424	ID:16	[INFO: App       ] Listening: :: local/remote port 3002/0
+     263.470154	ID:15	[INFO: ND        ] Should Stop!!.
+     263.471108	ID:10	[INFO: ND        ] Should Stop!!.
+     263.473083	ID:17	0x00,0x12,0x4b,0x00,0x06,0x0d,0xb1,0x47,
+     263.482706	ID:15	Link size: 8
+     263.483941	ID:10	Link size: 8
+     263.485724	ID:17	[INFO: App       ] Listening: :: local/remote port 3002/0
+     263.495372	ID:15	0x00,0x12,0x4b,0x00,0x06,0x0d,0xb4,0x59,
+     263.496573	ID:10	0x00,0x12,0x4b,0x00,0x19,0x32,0xe4,0xf2,
+     263.508432	ID:15	[INFO: App       ] Listening: :: local/remote port 3002/0
+     263.509420	ID:10	[INFO: App       ] Listening: :: local/remote port 3002/0
+     264.597595	ID:8	[INFO: ND        ] Sending report.
+     264.623207	ID:8	[INFO: ND        ] neighbor count 4:
+     264.858684	ID:8	[INFO: ND        ] RX Multicast! BC*N
+     264.871329	ID:8	[INFO: ND        ] B RX on BC conn!!: BC*N
+     264.883891	ID:8	[INFO: ND        ] Should Stop!!.
+     264.896627	ID:8	Link size: 8
+All nodes have reported stop signal
+
+
+4. PROCESSS THE LOG FILE TO GENERATE THE TOPOLOGY
+=================================================
+
+The experiment at the sics testbed creates a log folder similar to that in 
+TagAlong/Notebooks/Data/testbed/performance/sics/5634_tagalong/logs/log.txt 
+
+
+Copy that log file to local folder. 
+
+We use the file "TagAlong/scripts/extract_graph.py" to create the Topology from that log. 
+
+That file needs the log.txt file to be sent to a socket. 
+
+"Publish" the log.txt file to a udp socket
+------------------------------------------
+$ socat tcp-listen:60000,reuseaddr,fork open:../data/real_testbed/6584_log.txt
+
+Run the extract_graph script, specifying the server node and the output file for the graph
+------------------------------------------------------------------------------------------
+$ python scripts/extract_graph.py -s 13 ./daniel_test/real_testbed/graph_6584.data
+

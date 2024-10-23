@@ -1,0 +1,3 @@
+[submodule "iot-lab-contiki-ng"]
+	path = iot-lab-contiki-ng
+	url = git@github.com:DanielFPerez/iot-lab-contiki-ng.git
