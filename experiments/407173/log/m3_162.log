@@ -1,0 +1,28 @@
+2024-10-24 13:25:58,658 :: INFO :: Start experiment: perezram-407173
+2024-10-24 13:25:58,662 :: INFO :: Control node : Starting of control node serial interface
+2024-10-24 13:25:58,665 :: INFO :: Control node : reset
+2024-10-24 13:25:58,668 :: INFO :: Reset Control Node
+2024-10-24 13:26:01,458 :: INFO :: Control node : start power of open node
+2024-10-24 13:26:01,475 :: INFO :: Node OpenOCD: Setup of openocd node
+2024-10-24 13:26:04,490 :: INFO :: Node OpenOCD: flash of openocd node
+2024-10-24 13:26:04,494 :: INFO :: Flash firmware on OpenOCD: /tmp/tmpfsbneu2p--ab7b72abb6ca950d227f7b9a58ccae2b_get-mac.iotlab
+2024-10-24 13:26:11,987 :: INFO :: Control node : Start experiment
+2024-10-24 13:26:12,066 :: INFO :: Control Node set time delay: 16077 us
+2024-10-24 13:26:12,098 :: INFO :: Control node : profile configuration
+2024-10-24 13:26:12,101 :: INFO :: Configure profile on Control Node
+2024-10-24 13:26:12,151 :: INFO :: Start experiment succeeded
+2024-10-24 13:31:21,896 :: INFO :: Gateway Manager : Stop experiment
+2024-10-24 13:31:21,901 :: INFO :: Stop experiment
+2024-10-24 13:31:21,905 :: INFO :: Control node : stop of the experiment
+2024-10-24 13:31:21,910 :: INFO :: Control node : profile configuration
+2024-10-24 13:31:21,913 :: INFO :: Configure profile on Control Node
+2024-10-24 13:31:21,963 :: INFO :: Control node : start power of open node
+2024-10-24 13:31:21,995 :: INFO :: Node OpenOCD: teardown of openocd node
+2024-10-24 13:31:25,011 :: INFO :: openocd node debugger stop
+2024-10-24 13:31:25,537 :: INFO :: Node OpenOCD: flash of openocd node
+2024-10-24 13:31:25,540 :: INFO :: Flash firmware on OpenOCD: /usr/lib/python3.8/site-packages/gateway_code/static/m3_idle.elf
+2024-10-24 13:31:27,682 :: INFO :: Control node : Stop control node serial interface
+2024-10-24 13:31:27,686 :: INFO :: Control node : stop power of open node
+2024-10-24 13:31:27,726 :: INFO :: Control node : reset
+2024-10-24 13:31:27,730 :: INFO :: Reset Control Node
+2024-10-24 13:31:30,495 :: INFO :: Stop experiment succeeded
