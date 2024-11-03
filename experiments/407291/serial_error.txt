@@ -1,0 +1,8 @@
+1729870715.521616;Aggregator started
+1729870718.331663;m3-133;(<class 'OSError'>, OSError(113, 'No route to host'), <traceback object at 0x7f61410fb788>)
+1729870718.332661;m3-133;Connection closed
+1729870718.333174;m3-133;Connection closed
+1729870718.333325;m3-133;Connection closed
+1729872218.566247;Stopping
+Traceback (most recent call last):
+  File "/usr/local/bin/serial_aggregator", line 24, in <module>
