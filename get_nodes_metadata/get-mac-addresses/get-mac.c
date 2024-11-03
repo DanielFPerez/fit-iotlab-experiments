@@ -53,15 +53,15 @@ PROCESS_THREAD(get_mac_process, ev, data)
   PROCESS_BEGIN();
 
   // Setup a delay to ensure initialization of MAC address
-  etimer_set(&timer, CLOCK_SECOND * 60); // tried it with 5 but only 1 device reported MAC, so increased to 60. 
+  etimer_set(&timer, CLOCK_SECOND * 120); // tried it with 5 but only 1 device reported MAC, so increased to 60. 
   PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&timer));
 
   // Print MAC address in hexadecimal format
   printf("MAC address: { ");
   for (int i = 0; i < LINKADDR_SIZE; i++) {
-    printf("0x%02x", linkaddr_node_addr.u8[i]);
+    printf("%d", linkaddr_node_addr.u8[i]);
     if (i < LINKADDR_SIZE - 1) {
-      printf(", ");
+      printf(".");
     }
   }
   printf(" }\n");
@@ -72,7 +72,7 @@ PROCESS_THREAD(get_mac_process, ev, data)
   etimer_set(&timer, CLOCK_SECOND * 60);
   
   while(1) {
-    printf("Hello, world\n");
+    // printf("Hello, world\n");
     /* Wait for the periodic timer to expire and then restart the timer. */
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&timer));
     etimer_reset(&timer);

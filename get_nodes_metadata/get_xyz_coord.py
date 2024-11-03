@@ -74,6 +74,7 @@ if output:
                     'x': float(node['x']),
                     'y': float(node['y']),
                     'z': float(node['z']),
+                    'id': node_number,
                     'uid': uid
                 }
                 print(f"Node {node_number}, Coordinates (x: {node['x']}, y: {node['y']}, z: {node['z']})")
@@ -81,10 +82,10 @@ if output:
                 print(f"Could not extract node number from network address: {network_address}")
         
         # Save the result as a JSON file locally
-        with open(f'{result_json["site"]}-nodes_coord.json', 'w') as json_file:
+        with open(f'{result_json["site"]}-nodes_metadata.json', 'w') as json_file:
             json.dump(result_json, json_file, indent=4)
 
-        print(f"Node data saved to '{result_json['site']}-nodes_coord.json' successfully.")
+        print(f"Node data saved to '{result_json['site']}-nodes_metadata.json' successfully.")
 
     except json.JSONDecodeError:
         print("Failed to parse JSON output. Raw output:")
