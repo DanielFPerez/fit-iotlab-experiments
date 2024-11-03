@@ -39,6 +39,7 @@
 
 #include "contiki.h"
 #include "net/linkaddr.h"
+#include "lib/random.h" // Include for random_rand()
 
 #include <stdio.h> /* For printf() */
 
@@ -52,8 +53,13 @@ PROCESS_THREAD(get_mac_process, ev, data)
 
   PROCESS_BEGIN();
 
-  // Setup a delay to ensure initialization of MAC address
-  etimer_set(&timer, CLOCK_SECOND * 120); // tried it with 5 but only 1 device reported MAC, so increased to 60. 
+  // Base delay of 120 seconds
+  clock_time_t base_delay = CLOCK_SECOND * 120;
+  // Random delay between 1 and 20 seconds
+  clock_time_t random_delay = CLOCK_SECOND * (1 + (random_rand() % 15));
+
+  // Set timer to 120 seconds + random delay between 1 and 20 seconds
+  etimer_set(&timer, base_delay + random_delay);
   PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&timer));
 
   // Print MAC address in hexadecimal format
