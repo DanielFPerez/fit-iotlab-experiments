@@ -1,0 +1,16 @@
+1730646318.348271;Aggregator started
+1730646321.019743;m3-133;(<class 'OSError'>, OSError(113, 'No route to host'), <traceback object at 0x7fedddeff248>)
+1730646321.020832;m3-133;Connection closed
+1730646321.021468;m3-133;Connection closed
+1730646321.021624;m3-133;Connection closed
+1730649021.009287;Stopping
+Traceback (most recent call last):
+  File "/usr/local/bin/serial_aggregator", line 24, in <module>
+    iotlabaggregator.serial.main()
+  File "/usr/local/lib/python3.7/dist-packages/iotlabaggregator/serial.py", line 286, in main
+    aggregator.run()
+  File "/usr/local/lib/python3.7/dist-packages/iotlabaggregator/serial.py", line 194, in run
+    self.read_input()
+  File "/usr/local/lib/python3.7/dist-packages/iotlabaggregator/serial.py", line 201, in read_input
+    line = input()
+OSError: [Errno 5] Input/output error
