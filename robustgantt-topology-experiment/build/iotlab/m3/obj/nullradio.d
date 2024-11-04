@@ -1,4 +1,7 @@
-build/iotlab/m3/obj/nullradio.o: ../../os/dev/nullradio.c \
- ../../os/dev/nullradio.h ../../os/dev/radio.h
-../../os/dev/nullradio.c :
- ../../os/dev/nullradio.h ../../os/dev/radio.h :
+build/iotlab/m3/obj/nullradio.o: \
+ ../iot-lab-contiki-ng/contiki-ng/os/dev/nullradio.c \
+ ../iot-lab-contiki-ng/contiki-ng/os/dev/nullradio.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/dev/radio.h
+ ../iot-lab-contiki-ng/contiki-ng/os/dev/nullradio.c :
+ ../iot-lab-contiki-ng/contiki-ng/os/dev/nullradio.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/dev/radio.h :

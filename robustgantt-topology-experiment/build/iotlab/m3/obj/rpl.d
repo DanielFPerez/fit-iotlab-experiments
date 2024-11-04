@@ -1,62 +1,119 @@
-build/iotlab/m3/obj/rpl.o: ../../os/net/routing/rpl-lite/rpl.c \
- ../../os/net/routing/rpl-lite/rpl.h ../../os/net/ipv6/uip.h \
- ../../os/net/ipv6/uipopt.h ../../os/contiki.h \
- ../../../arch/platform/iotlab/./contiki-conf.h project-conf.h \
- ../../../arch/platform/iotlab/./iotlab-def.h \
- ../../../arch/platform/iotlab/m3/board-def.h \
- ../../os/contiki-default-conf.h ../../os/sys/process.h ../../os/sys/pt.h \
- ../../os/sys/lc.h ../../os/sys/lc-switch.h ../../os/sys/cc.h \
- ../../os/sys/cc-gcc.h ../../os/sys/autostart.h ../../os/sys/process.h \
- ../../os/sys/timer.h ../../os/sys/clock.h ../../os/sys/ctimer.h \
- ../../os/sys/etimer.h ../../os/sys/etimer.h ../../os/sys/rtimer.h \
- ../../os/dev/watchdog.h ../../../arch/platform/iotlab/./rtimer-arch.h \
- ../../../arch/platform/iotlab/openlab/lib/soft_timer_delay.h \
- ../../os/sys/pt.h ../../os/sys/clock.h ../../os/net/ipv6/uipbuf.h \
- ../../os/net/linkaddr.h ../../os/net/ipv6/tcpip.h \
- ../../os/net/routing/rpl-lite/rpl-const.h \
- ../../os/net/routing/rpl-lite/rpl-conf.h \
- ../../os/net/routing/rpl-lite/rpl-types.h \
- ../../os/net/routing/rpl-lite/rpl-icmp6.h ../../os/net/ipv6/uip.h \
- ../../os/net/ipv6/uip-ds6.h ../../os/sys/stimer.h \
- ../../os/net/ipv6/uip-nd6.h ../../os/net/ipv6/uip-ds6-nbr.h \
- ../../os/net/nbr-table.h ../../os/net/netstack.h ../../os/net/mac/mac.h \
- ../../os/dev/radio.h ../../os/net/mac/framer/framer.h \
- ../../os/net/ipv6/uip-ds6-route.h ../../os/lib/list.h \
- ../../os/net/ipv6/uip-ds6-nbr.h ../../os/net/routing/rpl-lite/rpl-dag.h \
- ../../os/net/routing/rpl-lite/rpl-dag-root.h \
- ../../os/net/routing/rpl-lite/rpl-neighbor.h ../../os/net/ipv6/uip-ds6.h \
- ../../os/sys/ctimer.h ../../os/net/routing/rpl-lite/rpl-ext-header.h \
- ../../os/net/routing/rpl-lite/rpl-timers.h \
- ../../os/net/routing/routing.h ../../os/net/ipv6/uip-sr.h \
- ../../os/sys/log.h ../../os/sys/log-conf.h
-../../os/net/routing/rpl-lite/rpl.c :
- ../../os/net/routing/rpl-lite/rpl.h ../../os/net/ipv6/uip.h :
- ../../os/net/ipv6/uipopt.h ../../os/contiki.h :
- ../../../arch/platform/iotlab/./contiki-conf.h project-conf.h :
- ../../../arch/platform/iotlab/./iotlab-def.h :
- ../../../arch/platform/iotlab/m3/board-def.h :
- ../../os/contiki-default-conf.h ../../os/sys/process.h ../../os/sys/pt.h :
- ../../os/sys/lc.h ../../os/sys/lc-switch.h ../../os/sys/cc.h :
- ../../os/sys/cc-gcc.h ../../os/sys/autostart.h ../../os/sys/process.h :
- ../../os/sys/timer.h ../../os/sys/clock.h ../../os/sys/ctimer.h :
- ../../os/sys/etimer.h ../../os/sys/etimer.h ../../os/sys/rtimer.h :
- ../../os/dev/watchdog.h ../../../arch/platform/iotlab/./rtimer-arch.h :
- ../../../arch/platform/iotlab/openlab/lib/soft_timer_delay.h :
- ../../os/sys/pt.h ../../os/sys/clock.h ../../os/net/ipv6/uipbuf.h :
- ../../os/net/linkaddr.h ../../os/net/ipv6/tcpip.h :
- ../../os/net/routing/rpl-lite/rpl-const.h :
- ../../os/net/routing/rpl-lite/rpl-conf.h :
- ../../os/net/routing/rpl-lite/rpl-types.h :
- ../../os/net/routing/rpl-lite/rpl-icmp6.h ../../os/net/ipv6/uip.h :
- ../../os/net/ipv6/uip-ds6.h ../../os/sys/stimer.h :
- ../../os/net/ipv6/uip-nd6.h ../../os/net/ipv6/uip-ds6-nbr.h :
- ../../os/net/nbr-table.h ../../os/net/netstack.h ../../os/net/mac/mac.h :
- ../../os/dev/radio.h ../../os/net/mac/framer/framer.h :
- ../../os/net/ipv6/uip-ds6-route.h ../../os/lib/list.h :
- ../../os/net/ipv6/uip-ds6-nbr.h ../../os/net/routing/rpl-lite/rpl-dag.h :
- ../../os/net/routing/rpl-lite/rpl-dag-root.h :
- ../../os/net/routing/rpl-lite/rpl-neighbor.h ../../os/net/ipv6/uip-ds6.h :
- ../../os/sys/ctimer.h ../../os/net/routing/rpl-lite/rpl-ext-header.h :
- ../../os/net/routing/rpl-lite/rpl-timers.h :
- ../../os/net/routing/routing.h ../../os/net/ipv6/uip-sr.h :
- ../../os/sys/log.h ../../os/sys/log-conf.h :
+build/iotlab/m3/obj/rpl.o: \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl.c \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uipopt.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/contiki.h \
+ ../iot-lab-contiki-ng/arch/platform/iotlab/./contiki-conf.h \
+ project-conf.h ../iot-lab-contiki-ng/arch/platform/iotlab/./iotlab-def.h \
+ ../iot-lab-contiki-ng/arch/platform/iotlab/m3/board-def.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/contiki-default-conf.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/lc.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/lc-switch.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/cc.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/cc-gcc.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/autostart.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/timer.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/ctimer.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/rtimer.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/dev/watchdog.h \
+ ../iot-lab-contiki-ng/arch/platform/iotlab/./rtimer-arch.h \
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer_delay.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uipbuf.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/linkaddr.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/tcpip.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-const.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-conf.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-types.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-icmp6.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-ds6.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/stimer.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-nd6.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-ds6-nbr.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/nbr-table.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/netstack.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/mac/mac.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/dev/radio.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/mac/framer/framer.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-ds6-route.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/lib/list.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-ds6-nbr.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-dag.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-dag-root.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-neighbor.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-ds6.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/ctimer.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-ext-header.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-timers.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/routing.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-sr.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/log.h \
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/log-conf.h
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl.c :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uipopt.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/contiki.h :
+ ../iot-lab-contiki-ng/arch/platform/iotlab/./contiki-conf.h :
+ project-conf.h ../iot-lab-contiki-ng/arch/platform/iotlab/./iotlab-def.h :
+ ../iot-lab-contiki-ng/arch/platform/iotlab/m3/board-def.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/contiki-default-conf.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/lc.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/lc-switch.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/cc.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/cc-gcc.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/autostart.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/timer.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/ctimer.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/rtimer.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/dev/watchdog.h :
+ ../iot-lab-contiki-ng/arch/platform/iotlab/./rtimer-arch.h :
+ ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer_delay.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uipbuf.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/linkaddr.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/tcpip.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-const.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-conf.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-types.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-icmp6.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-ds6.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/stimer.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-nd6.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-ds6-nbr.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/nbr-table.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/netstack.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/mac/mac.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/dev/radio.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/mac/framer/framer.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-ds6-route.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/lib/list.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-ds6-nbr.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-dag.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-dag-root.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-neighbor.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-ds6.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/ctimer.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-ext-header.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/rpl-lite/rpl-timers.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/routing/routing.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-sr.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/log.h :
+ ../iot-lab-contiki-ng/contiki-ng/os/sys/log-conf.h :

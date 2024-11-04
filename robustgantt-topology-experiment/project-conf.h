@@ -7,6 +7,6 @@
 
 #if 1
 // Adjust these parameters to change topology density.
-#define RF2XX_TX_POWER  PHY_POWER_m17dBm
+#define RF2XX_TX_POWER  PHY_POWER_0dBm
 #define RF2XX_RX_RSSI_THRESHOLD  RF2XX_PHY_RX_THRESHOLD__m75dBm
 #endif

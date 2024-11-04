@@ -15,3 +15,13 @@
 2024-11-04 16:56:21,558 :: INFO :: Flash firmware on open node: /tmp/tmpmtfd157i--firmware586588828881842938-udp-client.iotlab
 2024-11-04 16:56:21,616 :: INFO :: Node OpenOCD: flash of openocd node
 2024-11-04 16:56:21,620 :: INFO :: Flash firmware on OpenOCD: /tmp/tmpmtfd157i--firmware586588828881842938-udp-client.iotlab
+2024-11-04 17:20:24,150 :: INFO :: Gateway Manager : Stop experiment
+2024-11-04 17:20:24,156 :: INFO :: Stop experiment
+2024-11-04 17:20:24,161 :: INFO :: Control node : stop of the experiment
+2024-11-04 17:20:24,166 :: INFO :: Control node : profile configuration
+2024-11-04 17:20:24,169 :: INFO :: Configure profile on Control Node
+2024-11-04 17:20:24,218 :: INFO :: Control node : start power of open node
+2024-11-04 17:20:24,250 :: INFO :: Node OpenOCD: teardown of openocd node
+2024-11-04 17:20:27,270 :: INFO :: openocd node debugger stop
+2024-11-04 17:20:27,891 :: INFO :: Node OpenOCD: flash of openocd node
+2024-11-04 17:20:27,895 :: INFO :: Flash firmware on OpenOCD: /usr/lib/python3.8/site-packages/gateway_code/static/m3_idle.elf

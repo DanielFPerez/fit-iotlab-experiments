@@ -15,3 +15,17 @@
 2024-11-04 16:56:21,170 :: INFO :: Flash firmware on open node: /tmp/tmpomc5hod3--firmware586588828881842938-udp-client.iotlab
 2024-11-04 16:56:21,209 :: INFO :: Node OpenOCD: flash of openocd node
 2024-11-04 16:56:21,213 :: INFO :: Flash firmware on OpenOCD: /tmp/tmpomc5hod3--firmware586588828881842938-udp-client.iotlab
+2024-11-04 17:20:24,138 :: INFO :: Gateway Manager : Stop experiment
+2024-11-04 17:20:24,147 :: INFO :: Stop experiment
+2024-11-04 17:20:24,152 :: INFO :: Control node : stop of the experiment
+2024-11-04 17:20:24,159 :: INFO :: Control node : profile configuration
+2024-11-04 17:20:24,163 :: INFO :: Configure profile on Control Node
+2024-11-04 17:20:24,209 :: INFO :: Control node : start power of open node
+2024-11-04 17:20:24,242 :: INFO :: Node OpenOCD: teardown of openocd node
+2024-11-04 17:20:27,257 :: INFO :: openocd node debugger stop
+2024-11-04 17:20:27,879 :: INFO :: Node OpenOCD: flash of openocd node
+2024-11-04 17:20:27,882 :: INFO :: Flash firmware on OpenOCD: /usr/lib/python3.8/site-packages/gateway_code/static/m3_idle.elf
+2024-11-04 17:20:30,025 :: INFO :: Control node : Stop control node serial interface
+2024-11-04 17:20:30,030 :: INFO :: Control node : stop power of open node
+2024-11-04 17:20:30,068 :: INFO :: Control node : reset
+2024-11-04 17:20:30,072 :: INFO :: Reset Control Node
