@@ -1,0 +1,25 @@
+build/iotlab/m3/obj/isl29020/isl29020.o: \
+ ../../../arch/platform/iotlab/openlab/periph/isl29020/isl29020.c \
+ ../../../arch/platform/iotlab/openlab/periph/isl29020/isl29020_.h \
+ ../../../arch/platform/iotlab/openlab/periph/isl29020.h \
+ ../../../arch/platform/iotlab/openlab/drivers/i2c.h \
+ ../../../arch/platform/iotlab/openlab/lib/handler.h \
+ ../../../arch/platform/iotlab/openlab/lib/debug.h \
+ ../../../arch/platform/iotlab/openlab/drivers/nvic.h \
+ ../../../arch/platform/iotlab/openlab/lib/event.h \
+ ../../../arch/platform/iotlab/openlab/lib/handler.h \
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer.h \
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer_delay.h \
+ ../../../arch/platform/iotlab/openlab/lib/printf.h
+ ../../../arch/platform/iotlab/openlab/periph/isl29020/isl29020.c :
+ ../../../arch/platform/iotlab/openlab/periph/isl29020/isl29020_.h :
+ ../../../arch/platform/iotlab/openlab/periph/isl29020.h :
+ ../../../arch/platform/iotlab/openlab/drivers/i2c.h :
+ ../../../arch/platform/iotlab/openlab/lib/handler.h :
+ ../../../arch/platform/iotlab/openlab/lib/debug.h :
+ ../../../arch/platform/iotlab/openlab/drivers/nvic.h :
+ ../../../arch/platform/iotlab/openlab/lib/event.h :
+ ../../../arch/platform/iotlab/openlab/lib/handler.h :
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer.h :
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer_delay.h :
+ ../../../arch/platform/iotlab/openlab/lib/printf.h :

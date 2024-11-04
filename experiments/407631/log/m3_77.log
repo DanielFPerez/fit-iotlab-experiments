@@ -1,0 +1,17 @@
+2024-11-04 16:19:54,891 :: INFO :: Start experiment: perezram-407631
+2024-11-04 16:19:54,895 :: INFO :: Control node : Starting of control node serial interface
+2024-11-04 16:19:54,898 :: INFO :: Control node : reset
+2024-11-04 16:19:54,901 :: INFO :: Reset Control Node
+2024-11-04 16:19:57,785 :: INFO :: Control node : start power of open node
+2024-11-04 16:19:57,801 :: INFO :: Node OpenOCD: Setup of openocd node
+2024-11-04 16:20:00,817 :: INFO :: Node OpenOCD: flash of openocd node
+2024-11-04 16:20:00,822 :: INFO :: Flash firmware on OpenOCD: /usr/lib/python3.8/site-packages/gateway_code/static/m3_idle.elf
+2024-11-04 16:20:02,970 :: INFO :: Control node : Start experiment
+2024-11-04 16:20:03,033 :: INFO :: Control Node set time delay: 9831 us
+2024-11-04 16:20:03,081 :: INFO :: Control node : profile configuration
+2024-11-04 16:20:03,085 :: INFO :: Configure profile on Control Node
+2024-11-04 16:20:03,134 :: INFO :: Start experiment succeeded
+2024-11-04 16:21:04,434 :: INFO :: Gateway Manager : Flash of node
+2024-11-04 16:21:04,439 :: INFO :: Flash firmware on open node: /tmp/tmpitwocvsu--firmware269937455823517721-udp-client.iotlab
+2024-11-04 16:21:04,478 :: INFO :: Node OpenOCD: flash of openocd node
+2024-11-04 16:21:04,482 :: INFO :: Flash firmware on OpenOCD: /tmp/tmpitwocvsu--firmware269937455823517721-udp-client.iotlab

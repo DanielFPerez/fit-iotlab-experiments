@@ -14,7 +14,7 @@
 #define UDP_CLIENT_PORT	8765
 #define UDP_SERVER_PORT	5678
 
-#define SEND_INTERVAL		  (60 * CLOCK_SECOND)
+#define SEND_INTERVAL		  (300 * CLOCK_SECOND)
 
 static struct simple_udp_connection udp_conn;
 
@@ -47,12 +47,13 @@ send_neighbor_list(const uip_ipaddr_t *dest)
   static uint8_t buf[64];
   uip_ipaddr_t *temp;
 
+  memset(buf, 0, sizeof(buf));
   buf[0] = 0x42; /* Packet magic byte to identify */
   buf[1] = rpl_neighbor_count();
   LOG_INFO("neighbor count %d:\n", rpl_neighbor_count());
   unsigned index = 2;
   for(rpl_nbr_t *nbr = nbr_table_head(rpl_neighbors);
-      nbr != NULL && index + 2 < sizeof(buf);
+      nbr != NULL && index + 3 <= sizeof(buf);
       nbr = nbr_table_next(rpl_neighbors, nbr)) {
     temp = rpl_neighbor_get_ipaddr(nbr);
     const linkaddr_t *lladdr = rpl_neighbor_get_lladdr(nbr);

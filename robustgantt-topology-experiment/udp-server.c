@@ -78,7 +78,7 @@ udp_rx_callback(struct simple_udp_connection *c,
 
   LOG_INFO("NBR_REPORT %u.%u -> (",
 	   sender_addr->u8[14], sender_addr->u8[15]);
-  for(unsigned i = 2; i < datalen; i += 3) {
+  for(unsigned i = 2; i + 3 <= datalen; i += 3) {
     LOG_INFO_("%u.%u:%d, ",
 	      data[i], data[i + 1], -(int)(data[i + 2] & 0xff));
   }
