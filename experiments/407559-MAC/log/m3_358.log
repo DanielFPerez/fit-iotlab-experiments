@@ -1,0 +1,28 @@
+2024-11-04 01:10:09,544 :: INFO :: Start experiment: perezram-407559
+2024-11-04 01:10:09,548 :: INFO :: Control node : Starting of control node serial interface
+2024-11-04 01:10:09,551 :: INFO :: Control node : reset
+2024-11-04 01:10:09,554 :: INFO :: Reset Control Node
+2024-11-04 01:10:12,345 :: INFO :: Control node : start power of open node
+2024-11-04 01:10:12,363 :: INFO :: Node OpenOCD: Setup of openocd node
+2024-11-04 01:10:15,377 :: INFO :: Node OpenOCD: flash of openocd node
+2024-11-04 01:10:15,382 :: INFO :: Flash firmware on OpenOCD: /tmp/tmpnb6c77ul--5beeb7e95392731f2752dd0708f8d959_get-mac.iotlab
+2024-11-04 01:10:22,924 :: INFO :: Control node : Start experiment
+2024-11-04 01:10:22,986 :: INFO :: Control Node set time delay: 6029 us
+2024-11-04 01:10:23,008 :: INFO :: Control node : profile configuration
+2024-11-04 01:10:23,011 :: INFO :: Configure profile on Control Node
+2024-11-04 01:10:23,087 :: INFO :: Start experiment succeeded
+2024-11-04 01:25:32,691 :: INFO :: Gateway Manager : Stop experiment
+2024-11-04 01:25:33,313 :: INFO :: Stop experiment
+2024-11-04 01:25:33,318 :: INFO :: Control node : stop of the experiment
+2024-11-04 01:25:33,322 :: INFO :: Control node : profile configuration
+2024-11-04 01:25:33,325 :: INFO :: Configure profile on Control Node
+2024-11-04 01:25:33,380 :: INFO :: Control node : start power of open node
+2024-11-04 01:25:33,412 :: INFO :: Node OpenOCD: teardown of openocd node
+2024-11-04 01:25:36,428 :: INFO :: openocd node debugger stop
+2024-11-04 01:25:36,953 :: INFO :: Node OpenOCD: flash of openocd node
+2024-11-04 01:25:36,956 :: INFO :: Flash firmware on OpenOCD: /usr/lib/python3.8/site-packages/gateway_code/static/m3_idle.elf
+2024-11-04 01:25:39,098 :: INFO :: Control node : Stop control node serial interface
+2024-11-04 01:25:39,102 :: INFO :: Control node : stop power of open node
+2024-11-04 01:25:39,143 :: INFO :: Control node : reset
+2024-11-04 01:25:39,147 :: INFO :: Reset Control Node
+2024-11-04 01:25:41,886 :: INFO :: Stop experiment succeeded

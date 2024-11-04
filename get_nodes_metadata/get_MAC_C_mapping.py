@@ -12,14 +12,9 @@ with open(read_PATH, 'r') as f:
 # Start building the C code string
 c_code = """#include <stdint.h>
 
-#define COORDINATOR_ID {COORDINATOR_ID}
+#define TAGALONG_COORDINATOR_ID {COORDINATOR_ID}
 
-typedef struct {
-    uint16_t id;
-    uint8_t mac[8];
-} id_mac;
-
-const id_mac deployment_fit_iot_lab[] = {
+const struct id_mac deployment_fit_iot_lab_lille[] = {
 """
 
 # Iterate over each node and format the MAC address

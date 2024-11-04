@@ -1,0 +1,37 @@
+2024-11-04 01:10:08,915 :: INFO :: Start experiment: perezram-407559
+2024-11-04 01:10:08,918 :: INFO :: Control node : Starting of control node serial interface
+2024-11-04 01:10:08,922 :: INFO :: Control node : reset
+2024-11-04 01:10:08,925 :: INFO :: Reset Control Node
+2024-11-04 01:10:11,723 :: INFO :: Control node : start power of open node
+2024-11-04 01:10:11,757 :: INFO :: Node OpenOCD: Setup of openocd node
+2024-11-04 01:10:14,776 :: ERROR :: Error Open Node tty not visible: /dev/iotlab/ttyON_M3
+2024-11-04 01:10:14,781 :: INFO :: Node OpenOCD: flash of openocd node
+2024-11-04 01:10:14,784 :: INFO :: Flash firmware on OpenOCD: /tmp/tmpy4smgbpn--5beeb7e95392731f2752dd0708f8d959_get-mac.iotlab
+2024-11-04 01:10:14,953 :: WARNING :: Node OpenOCD: flash of openocd node FAILED: ret = 1
+2024-11-04 01:10:14,978 :: WARNING :: Node OpenOCD: Setup of openocd node FAILED: ret = 2
+2024-11-04 01:10:14,993 :: INFO :: Control node : Start experiment
+2024-11-04 01:10:15,038 :: INFO :: Control Node set time delay: 7506 us
+2024-11-04 01:10:15,085 :: INFO :: Control node : profile configuration
+2024-11-04 01:10:15,088 :: INFO :: Configure profile on Control Node
+2024-11-04 01:10:15,138 :: INFO :: Start experiment succeeded
+2024-11-04 01:10:15,142 :: WARNING :: Gateway Manager : Start experiment FAILED: ret = 2
+2024-11-04 01:10:15,147 :: ERROR :: REST: Start experiment with errors: ret: 2
+2024-11-04 01:10:31,234 :: WARNING :: serial redirection: /dev/iotlab/ttyON_M3 not found
+2024-11-04 01:25:32,891 :: INFO :: Gateway Manager : Stop experiment
+2024-11-04 01:25:32,897 :: INFO :: Stop experiment
+2024-11-04 01:25:32,901 :: INFO :: Control node : stop of the experiment
+2024-11-04 01:25:32,906 :: INFO :: Control node : profile configuration
+2024-11-04 01:25:32,909 :: INFO :: Configure profile on Control Node
+2024-11-04 01:25:32,962 :: INFO :: Control node : start power of open node
+2024-11-04 01:25:32,993 :: INFO :: Node OpenOCD: teardown of openocd node
+2024-11-04 01:25:36,012 :: ERROR :: Error Open Node tty not visible: /dev/iotlab/ttyON_M3
+2024-11-04 01:25:36,015 :: INFO :: openocd node debugger stop
+2024-11-04 01:25:36,539 :: INFO :: Node OpenOCD: flash of openocd node
+2024-11-04 01:25:36,543 :: INFO :: Flash firmware on OpenOCD: /usr/lib/python3.8/site-packages/gateway_code/static/m3_idle.elf
+2024-11-04 01:25:36,717 :: WARNING :: Node OpenOCD: flash of openocd node FAILED: ret = 1
+2024-11-04 01:25:36,722 :: WARNING :: Node OpenOCD: teardown of openocd node FAILED: ret = 2
+2024-11-04 01:25:36,725 :: INFO :: Control node : Stop control node serial interface
+2024-11-04 01:25:36,728 :: INFO :: Control node : stop power of open node
+2024-11-04 01:25:36,773 :: INFO :: Control node : reset
+2024-11-04 01:25:36,776 :: INFO :: Reset Control Node
+2024-11-04 01:25:39,516 :: INFO :: Stop experiment succeeded
