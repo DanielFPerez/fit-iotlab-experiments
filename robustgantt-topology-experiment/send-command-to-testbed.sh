@@ -14,13 +14,13 @@ status=$(iotlab-experiment wait | tail -n 1)
 # Check if the experiment is running
 if [[ "$status" == *"Running"* ]]; then
     # Flash the udp-server
-    iotlab-node --flash udp-server.iotlab -l lille,m3,238
+    iotlab-node --flash udp-server.iotlab -l lille,m3,206
 
     # Wait for 15 seconds before proceeding
     sleep 15
 
     # Flash the udp-client
-    iotlab-node --flash udp-client.iotlab -e lille,m3,238
+    iotlab-node --flash udp-client.iotlab -e lille,m3,206
 else
     echo "Experiment is not in the 'Running' state. Exiting."
 fi

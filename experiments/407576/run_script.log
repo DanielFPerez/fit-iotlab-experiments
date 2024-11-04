@@ -1,0 +1,6 @@
+Launch serial_aggregator with exp_id==407576
+Experiment '407576/perezram' is Running
+Running script: 'serial_script.sh'
+Got kill signal, sending SIGTERM to script and waiting for return...
+Script returned: -15
+

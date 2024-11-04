@@ -1,10 +1,10 @@
 {
-    "id": 407553
+    "id": 407576
 }
-Waiting that experiment 407553 gets in state Running
+Waiting that experiment 407576 gets in state Running
 {
     "0": [
-        "m3-238.lille.iot-lab.info"
+        "m3-206.lille.iot-lab.info"
     ]
 }
 {
@@ -188,7 +188,6 @@ Waiting that experiment 407553 gets in state Running
         "m3-203.lille.iot-lab.info",
         "m3-204.lille.iot-lab.info",
         "m3-205.lille.iot-lab.info",
-        "m3-206.lille.iot-lab.info",
         "m3-207.lille.iot-lab.info",
         "m3-208.lille.iot-lab.info",
         "m3-209.lille.iot-lab.info",
@@ -220,6 +219,7 @@ Waiting that experiment 407553 gets in state Running
         "m3-235.lille.iot-lab.info",
         "m3-236.lille.iot-lab.info",
         "m3-237.lille.iot-lab.info",
+        "m3-238.lille.iot-lab.info",
         "m3-239.lille.iot-lab.info",
         "m3-240.lille.iot-lab.info",
         "m3-241.lille.iot-lab.info",
