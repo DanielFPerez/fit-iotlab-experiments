@@ -1,0 +1,6 @@
+1730751247.275116;Aggregator started
+1730751250.011494;m3-133;(<class 'OSError'>, OSError(113, 'No route to host'), <traceback object at 0x7fc5efa15148>)
+1730751250.012464;m3-133;Connection closed
+1730751250.013021;m3-133;Connection closed
+1730751250.013153;m3-133;Connection closed
+1730753050.265117;Stopping

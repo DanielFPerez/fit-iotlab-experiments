@@ -1,0 +1,24 @@
+#ifndef __PROJECT_CONF_H__
+#define __PROJECT_CONF_H__
+
+#define LOG_CONF_LEVEL_NULLNET LOG_LEVEL_NONE
+
+#define UART0_CONF_WITH_INTERRUPT 0
+
+#undef UART0_CONF_RX_WITH_DMA
+#define UART0_CONF_RX_WITH_DMA    1
+
+#undef NETSTACK_CONF_RADIO
+#define NETSTACK_CONF_RADIO ca_tag_driver
+
+#define FRAME802154_CONF_VERSION FRAME802154_IEEE802154_2015
+
+/* Disable DCO calibration (uses timerB) */
+#undef DCOSYNCH_CONF_ENABLED
+#define DCOSYNCH_CONF_ENABLED   0
+
+/* Enable SFD timestamps (uses timerB) */
+#undef CC2420_CONF_SFD_TIMESTAMPS
+#define CC2420_CONF_SFD_TIMESTAMPS      1
+
+#endif /* __PROJECT_CONF_H__ */

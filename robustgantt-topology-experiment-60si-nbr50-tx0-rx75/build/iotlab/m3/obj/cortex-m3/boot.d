@@ -1,0 +1,27 @@
+build/iotlab/m3/obj/cortex-m3/boot.o: \
+ ../../../arch/platform/iotlab/openlab/drivers/cortex-m3/boot.c \
+ ../../../arch/platform/iotlab/openlab/drivers/cortex-m3/boot.h \
+ ../../../arch/platform/iotlab/openlab/lib/printf.h \
+ ../../../arch/platform/iotlab/openlab/lib/debug.h \
+ ../../../arch/platform/iotlab/openlab/drivers/nvic.h \
+ ../../../arch/platform/iotlab/openlab/lib/handler.h \
+ ../../../arch/platform/iotlab/openlab/lib/event.h \
+ ../../../arch/platform/iotlab/openlab/lib/handler.h \
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer.h \
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer_delay.h \
+ ../../../arch/platform/iotlab/openlab/lib/printf.h \
+ ../../../arch/platform/iotlab/openlab/drivers/cortex-m3/cm3_scb_registers.h \
+ ../../../arch/platform/iotlab/openlab/drivers/cortex-m3/cm3_memmap.h
+ ../../../arch/platform/iotlab/openlab/drivers/cortex-m3/boot.c :
+ ../../../arch/platform/iotlab/openlab/drivers/cortex-m3/boot.h :
+ ../../../arch/platform/iotlab/openlab/lib/printf.h :
+ ../../../arch/platform/iotlab/openlab/lib/debug.h :
+ ../../../arch/platform/iotlab/openlab/drivers/nvic.h :
+ ../../../arch/platform/iotlab/openlab/lib/handler.h :
+ ../../../arch/platform/iotlab/openlab/lib/event.h :
+ ../../../arch/platform/iotlab/openlab/lib/handler.h :
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer.h :
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer_delay.h :
+ ../../../arch/platform/iotlab/openlab/lib/printf.h :
+ ../../../arch/platform/iotlab/openlab/drivers/cortex-m3/cm3_scb_registers.h :
+ ../../../arch/platform/iotlab/openlab/drivers/cortex-m3/cm3_memmap.h :
