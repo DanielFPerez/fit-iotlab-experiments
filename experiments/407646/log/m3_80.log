@@ -1,0 +1,32 @@
+2024-11-04 17:58:59,646 :: INFO :: Start experiment: perezram-407646
+2024-11-04 17:58:59,650 :: INFO :: Control node : Starting of control node serial interface
+2024-11-04 17:58:59,653 :: INFO :: Control node : reset
+2024-11-04 17:58:59,656 :: INFO :: Reset Control Node
+2024-11-04 17:59:02,503 :: INFO :: Control node : start power of open node
+2024-11-04 17:59:02,522 :: INFO :: Node OpenOCD: Setup of openocd node
+2024-11-04 17:59:05,536 :: INFO :: Node OpenOCD: flash of openocd node
+2024-11-04 17:59:05,541 :: INFO :: Flash firmware on OpenOCD: /usr/lib/python3.8/site-packages/gateway_code/static/m3_idle.elf
+2024-11-04 17:59:07,692 :: INFO :: Control node : Start experiment
+2024-11-04 17:59:07,753 :: INFO :: Control Node set time delay: 7177 us
+2024-11-04 17:59:07,785 :: INFO :: Control node : profile configuration
+2024-11-04 17:59:07,799 :: INFO :: Configure profile on Control Node
+2024-11-04 17:59:07,854 :: INFO :: Start experiment succeeded
+2024-11-04 18:00:34,405 :: INFO :: Gateway Manager : Flash of node
+2024-11-04 18:00:34,410 :: INFO :: Flash firmware on open node: /tmp/tmpb474xk5j--firmware698364144887989659-udp-client.iotlab
+2024-11-04 18:00:34,454 :: INFO :: Node OpenOCD: flash of openocd node
+2024-11-04 18:00:34,458 :: INFO :: Flash firmware on OpenOCD: /tmp/tmpb474xk5j--firmware698364144887989659-udp-client.iotlab
+2024-11-04 18:29:17,321 :: INFO :: Gateway Manager : Stop experiment
+2024-11-04 18:29:17,326 :: INFO :: Stop experiment
+2024-11-04 18:29:17,331 :: INFO :: Control node : stop of the experiment
+2024-11-04 18:29:17,336 :: INFO :: Control node : profile configuration
+2024-11-04 18:29:17,340 :: INFO :: Configure profile on Control Node
+2024-11-04 18:29:17,398 :: INFO :: Control node : start power of open node
+2024-11-04 18:29:17,430 :: INFO :: Node OpenOCD: teardown of openocd node
+2024-11-04 18:29:20,446 :: INFO :: openocd node debugger stop
+2024-11-04 18:29:21,068 :: INFO :: Node OpenOCD: flash of openocd node
+2024-11-04 18:29:21,071 :: INFO :: Flash firmware on OpenOCD: /usr/lib/python3.8/site-packages/gateway_code/static/m3_idle.elf
+2024-11-04 18:29:23,213 :: INFO :: Control node : Stop control node serial interface
+2024-11-04 18:29:23,218 :: INFO :: Control node : stop power of open node
+2024-11-04 18:29:23,257 :: INFO :: Control node : reset
+2024-11-04 18:29:23,261 :: INFO :: Reset Control Node
+2024-11-04 18:29:26,002 :: INFO :: Stop experiment succeeded

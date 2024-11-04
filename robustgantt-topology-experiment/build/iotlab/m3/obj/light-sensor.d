@@ -1,59 +1,31 @@
 build/iotlab/m3/obj/light-sensor.o: \
- ../iot-lab-contiki-ng/arch/platform/iotlab/dev/light-sensor.c \
- ../iot-lab-contiki-ng/contiki-ng/os/contiki.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/./contiki-conf.h \
- project-conf.h ../iot-lab-contiki-ng/arch/platform/iotlab/./iotlab-def.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/m3/board-def.h \
- ../iot-lab-contiki-ng/contiki-ng/os/contiki-default-conf.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/lc.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/lc-switch.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/cc.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/cc-gcc.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/autostart.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/timer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/ctimer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/rtimer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/dev/watchdog.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/./rtimer-arch.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer_delay.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h \
- ../iot-lab-contiki-ng/contiki-ng/os/lib/sensors.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/./dev/light-sensor.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/periph/isl29020.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/periph/isl29020.h
- ../iot-lab-contiki-ng/arch/platform/iotlab/dev/light-sensor.c :
- ../iot-lab-contiki-ng/contiki-ng/os/contiki.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/./contiki-conf.h :
- project-conf.h ../iot-lab-contiki-ng/arch/platform/iotlab/./iotlab-def.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/m3/board-def.h :
- ../iot-lab-contiki-ng/contiki-ng/os/contiki-default-conf.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/lc.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/lc-switch.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/cc.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/cc-gcc.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/autostart.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/timer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/ctimer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/rtimer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/dev/watchdog.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/./rtimer-arch.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer_delay.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h :
- ../iot-lab-contiki-ng/contiki-ng/os/lib/sensors.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/./dev/light-sensor.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/periph/isl29020.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/periph/isl29020.h :
+ ../../../arch/platform/iotlab/dev/light-sensor.c ../../os/contiki.h \
+ ../../../arch/platform/iotlab/./contiki-conf.h project-conf.h \
+ ../../../arch/platform/iotlab/./iotlab-def.h \
+ ../../../arch/platform/iotlab/m3/board-def.h \
+ ../../os/contiki-default-conf.h ../../os/sys/process.h ../../os/sys/pt.h \
+ ../../os/sys/lc.h ../../os/sys/lc-switch.h ../../os/sys/cc.h \
+ ../../os/sys/cc-gcc.h ../../os/sys/autostart.h ../../os/sys/process.h \
+ ../../os/sys/timer.h ../../os/sys/clock.h ../../os/sys/ctimer.h \
+ ../../os/sys/etimer.h ../../os/sys/etimer.h ../../os/sys/rtimer.h \
+ ../../os/dev/watchdog.h ../../../arch/platform/iotlab/./rtimer-arch.h \
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer_delay.h \
+ ../../os/sys/pt.h ../../os/sys/clock.h ../../os/lib/sensors.h \
+ ../../../arch/platform/iotlab/./dev/light-sensor.h \
+ ../../../arch/platform/iotlab/openlab/periph/isl29020.h \
+ ../../../arch/platform/iotlab/openlab/periph/isl29020.h
+ ../../../arch/platform/iotlab/dev/light-sensor.c ../../os/contiki.h :
+ ../../../arch/platform/iotlab/./contiki-conf.h project-conf.h :
+ ../../../arch/platform/iotlab/./iotlab-def.h :
+ ../../../arch/platform/iotlab/m3/board-def.h :
+ ../../os/contiki-default-conf.h ../../os/sys/process.h ../../os/sys/pt.h :
+ ../../os/sys/lc.h ../../os/sys/lc-switch.h ../../os/sys/cc.h :
+ ../../os/sys/cc-gcc.h ../../os/sys/autostart.h ../../os/sys/process.h :
+ ../../os/sys/timer.h ../../os/sys/clock.h ../../os/sys/ctimer.h :
+ ../../os/sys/etimer.h ../../os/sys/etimer.h ../../os/sys/rtimer.h :
+ ../../os/dev/watchdog.h ../../../arch/platform/iotlab/./rtimer-arch.h :
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer_delay.h :
+ ../../os/sys/pt.h ../../os/sys/clock.h ../../os/lib/sensors.h :
+ ../../../arch/platform/iotlab/./dev/light-sensor.h :
+ ../../../arch/platform/iotlab/openlab/periph/isl29020.h :
+ ../../../arch/platform/iotlab/openlab/periph/isl29020.h :

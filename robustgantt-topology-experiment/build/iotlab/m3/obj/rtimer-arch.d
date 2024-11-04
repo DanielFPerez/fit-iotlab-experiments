@@ -1,127 +1,97 @@
 build/iotlab/m3/obj/rtimer-arch.o: \
- ../iot-lab-contiki-ng/arch/platform/iotlab/./rtimer-arch.c \
- ../iot-lab-contiki-ng/arch/platform/iotlab/./contiki-conf.h \
- project-conf.h ../iot-lab-contiki-ng/arch/platform/iotlab/./iotlab-def.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/m3/board-def.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/energest.h \
- ../iot-lab-contiki-ng/contiki-ng/os/contiki.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/./contiki-conf.h \
- ../iot-lab-contiki-ng/contiki-ng/os/contiki-default-conf.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/lc.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/lc-switch.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/cc.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/cc-gcc.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/autostart.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/timer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/ctimer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/rtimer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/dev/watchdog.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/./rtimer-arch.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer_delay.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/rtimer.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/./rtimer-arch.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32/timer_.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/timer.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/handler.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/platform/platform.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/drivers.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/adc.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/gpio.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/i2c.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/spi.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/timer.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/uart.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/platform/platform_leds.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/net/phy.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc_registers.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32f1xx/memmap.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/cortex-m3/cm3_memmap.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc_sysclk.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc_clock.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/nvic.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32/timer_registers.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32f1xx/memmap.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32/timer_.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/cortex-m3/cm3_nvic_registers.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/cortex-m3/cm3_memmap.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/softtimer/soft_timer_.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/event.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/handler.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer_delay.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/debug.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/printf.h
- ../iot-lab-contiki-ng/arch/platform/iotlab/./rtimer-arch.c :
- ../iot-lab-contiki-ng/arch/platform/iotlab/./contiki-conf.h :
- project-conf.h ../iot-lab-contiki-ng/arch/platform/iotlab/./iotlab-def.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/m3/board-def.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/energest.h :
- ../iot-lab-contiki-ng/contiki-ng/os/contiki.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/./contiki-conf.h :
- ../iot-lab-contiki-ng/contiki-ng/os/contiki-default-conf.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/lc.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/lc-switch.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/cc.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/cc-gcc.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/autostart.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/timer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/ctimer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/rtimer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/dev/watchdog.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/./rtimer-arch.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer_delay.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/rtimer.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/./rtimer-arch.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32/timer_.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/timer.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/handler.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/platform/platform.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/drivers.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/adc.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/gpio.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/i2c.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/spi.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/timer.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/uart.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/platform/platform_leds.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/net/phy.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc_registers.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32f1xx/memmap.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/cortex-m3/cm3_memmap.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc_sysclk.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc_clock.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/nvic.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32/timer_registers.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32f1xx/memmap.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32/timer_.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/cortex-m3/cm3_nvic_registers.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/drivers/cortex-m3/cm3_memmap.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/softtimer/soft_timer_.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/event.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/handler.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer_delay.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/debug.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/printf.h :
+ ../../../arch/platform/iotlab/./rtimer-arch.c \
+ ../../../arch/platform/iotlab/./contiki-conf.h project-conf.h \
+ ../../../arch/platform/iotlab/./iotlab-def.h \
+ ../../../arch/platform/iotlab/m3/board-def.h ../../os/sys/energest.h \
+ ../../os/contiki.h ../../../arch/platform/iotlab/./contiki-conf.h \
+ ../../os/contiki-default-conf.h ../../os/sys/process.h ../../os/sys/pt.h \
+ ../../os/sys/lc.h ../../os/sys/lc-switch.h ../../os/sys/cc.h \
+ ../../os/sys/cc-gcc.h ../../os/sys/autostart.h ../../os/sys/process.h \
+ ../../os/sys/timer.h ../../os/sys/clock.h ../../os/sys/ctimer.h \
+ ../../os/sys/etimer.h ../../os/sys/etimer.h ../../os/sys/rtimer.h \
+ ../../os/dev/watchdog.h ../../../arch/platform/iotlab/./rtimer-arch.h \
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer_delay.h \
+ ../../os/sys/pt.h ../../os/sys/clock.h ../../os/sys/rtimer.h \
+ ../../../arch/platform/iotlab/./rtimer-arch.h \
+ ../../../arch/platform/iotlab/openlab/drivers/stm32/timer_.h \
+ ../../../arch/platform/iotlab/openlab/drivers/timer.h \
+ ../../../arch/platform/iotlab/openlab/lib/handler.h \
+ ../../../arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc.h \
+ ../../../arch/platform/iotlab/openlab/platform/platform.h \
+ ../../../arch/platform/iotlab/openlab/drivers/drivers.h \
+ ../../../arch/platform/iotlab/openlab/drivers/adc.h \
+ ../../../arch/platform/iotlab/openlab/drivers/gpio.h \
+ ../../../arch/platform/iotlab/openlab/drivers/i2c.h \
+ ../../../arch/platform/iotlab/openlab/drivers/spi.h \
+ ../../../arch/platform/iotlab/openlab/drivers/timer.h \
+ ../../../arch/platform/iotlab/openlab/drivers/uart.h \
+ ../../../arch/platform/iotlab/openlab/platform/platform_leds.h \
+ ../../../arch/platform/iotlab/openlab/net/phy.h \
+ ../../../arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc_registers.h \
+ ../../../arch/platform/iotlab/openlab/drivers/stm32f1xx/memmap.h \
+ ../../../arch/platform/iotlab/openlab/drivers/cortex-m3/cm3_memmap.h \
+ ../../../arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc_sysclk.h \
+ ../../../arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc_clock.h \
+ ../../../arch/platform/iotlab/openlab/drivers/nvic.h \
+ ../../../arch/platform/iotlab/openlab/drivers/stm32/timer_registers.h \
+ ../../../arch/platform/iotlab/openlab/drivers/stm32f1xx/memmap.h \
+ ../../../arch/platform/iotlab/openlab/drivers/stm32/timer_.h \
+ ../../../arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc.h \
+ ../../../arch/platform/iotlab/openlab/drivers/cortex-m3/cm3_nvic_registers.h \
+ ../../../arch/platform/iotlab/openlab/drivers/cortex-m3/cm3_memmap.h \
+ ../../../arch/platform/iotlab/openlab/lib/softtimer/soft_timer_.h \
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer.h \
+ ../../../arch/platform/iotlab/openlab/lib/event.h \
+ ../../../arch/platform/iotlab/openlab/lib/handler.h \
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer_delay.h \
+ ../../../arch/platform/iotlab/openlab/lib/debug.h \
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer.h \
+ ../../../arch/platform/iotlab/openlab/lib/printf.h
+ ../../../arch/platform/iotlab/./rtimer-arch.c :
+ ../../../arch/platform/iotlab/./contiki-conf.h project-conf.h :
+ ../../../arch/platform/iotlab/./iotlab-def.h :
+ ../../../arch/platform/iotlab/m3/board-def.h ../../os/sys/energest.h :
+ ../../os/contiki.h ../../../arch/platform/iotlab/./contiki-conf.h :
+ ../../os/contiki-default-conf.h ../../os/sys/process.h ../../os/sys/pt.h :
+ ../../os/sys/lc.h ../../os/sys/lc-switch.h ../../os/sys/cc.h :
+ ../../os/sys/cc-gcc.h ../../os/sys/autostart.h ../../os/sys/process.h :
+ ../../os/sys/timer.h ../../os/sys/clock.h ../../os/sys/ctimer.h :
+ ../../os/sys/etimer.h ../../os/sys/etimer.h ../../os/sys/rtimer.h :
+ ../../os/dev/watchdog.h ../../../arch/platform/iotlab/./rtimer-arch.h :
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer_delay.h :
+ ../../os/sys/pt.h ../../os/sys/clock.h ../../os/sys/rtimer.h :
+ ../../../arch/platform/iotlab/./rtimer-arch.h :
+ ../../../arch/platform/iotlab/openlab/drivers/stm32/timer_.h :
+ ../../../arch/platform/iotlab/openlab/drivers/timer.h :
+ ../../../arch/platform/iotlab/openlab/lib/handler.h :
+ ../../../arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc.h :
+ ../../../arch/platform/iotlab/openlab/platform/platform.h :
+ ../../../arch/platform/iotlab/openlab/drivers/drivers.h :
+ ../../../arch/platform/iotlab/openlab/drivers/adc.h :
+ ../../../arch/platform/iotlab/openlab/drivers/gpio.h :
+ ../../../arch/platform/iotlab/openlab/drivers/i2c.h :
+ ../../../arch/platform/iotlab/openlab/drivers/spi.h :
+ ../../../arch/platform/iotlab/openlab/drivers/timer.h :
+ ../../../arch/platform/iotlab/openlab/drivers/uart.h :
+ ../../../arch/platform/iotlab/openlab/platform/platform_leds.h :
+ ../../../arch/platform/iotlab/openlab/net/phy.h :
+ ../../../arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc_registers.h :
+ ../../../arch/platform/iotlab/openlab/drivers/stm32f1xx/memmap.h :
+ ../../../arch/platform/iotlab/openlab/drivers/cortex-m3/cm3_memmap.h :
+ ../../../arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc_sysclk.h :
+ ../../../arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc_clock.h :
+ ../../../arch/platform/iotlab/openlab/drivers/nvic.h :
+ ../../../arch/platform/iotlab/openlab/drivers/stm32/timer_registers.h :
+ ../../../arch/platform/iotlab/openlab/drivers/stm32f1xx/memmap.h :
+ ../../../arch/platform/iotlab/openlab/drivers/stm32/timer_.h :
+ ../../../arch/platform/iotlab/openlab/drivers/stm32f1xx/rcc.h :
+ ../../../arch/platform/iotlab/openlab/drivers/cortex-m3/cm3_nvic_registers.h :
+ ../../../arch/platform/iotlab/openlab/drivers/cortex-m3/cm3_memmap.h :
+ ../../../arch/platform/iotlab/openlab/lib/softtimer/soft_timer_.h :
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer.h :
+ ../../../arch/platform/iotlab/openlab/lib/event.h :
+ ../../../arch/platform/iotlab/openlab/lib/handler.h :
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer_delay.h :
+ ../../../arch/platform/iotlab/openlab/lib/debug.h :
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer.h :
+ ../../../arch/platform/iotlab/openlab/lib/printf.h :

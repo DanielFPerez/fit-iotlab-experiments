@@ -1,79 +1,44 @@
-build/iotlab/m3/obj/uip-udp-packet.o: \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-udp-packet.c \
- ../iot-lab-contiki-ng/contiki-ng/os/contiki.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/./contiki-conf.h \
- project-conf.h ../iot-lab-contiki-ng/arch/platform/iotlab/./iotlab-def.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/m3/board-def.h \
- ../iot-lab-contiki-ng/contiki-ng/os/contiki-default-conf.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/lc.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/lc-switch.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/cc.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/cc-gcc.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/autostart.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/timer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/ctimer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/rtimer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/dev/watchdog.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/./rtimer-arch.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer_delay.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-udp-packet.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uipopt.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uipbuf.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/linkaddr.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/tcpip.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/multicast/uip-mcast6.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/multicast/uip-mcast6-engines.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/multicast/uip-mcast6-route.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/multicast/smrf.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/multicast/esmrf.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/multicast/roll-tm.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/multicast/uip-mcast6-stats.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/multicast/mpl.h
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-udp-packet.c :
- ../iot-lab-contiki-ng/contiki-ng/os/contiki.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/./contiki-conf.h :
- project-conf.h ../iot-lab-contiki-ng/arch/platform/iotlab/./iotlab-def.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/m3/board-def.h :
- ../iot-lab-contiki-ng/contiki-ng/os/contiki-default-conf.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/lc.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/lc-switch.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/cc.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/cc-gcc.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/autostart.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/timer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/ctimer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/rtimer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/dev/watchdog.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/./rtimer-arch.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer_delay.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip-udp-packet.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uipopt.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uipbuf.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/linkaddr.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/tcpip.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/multicast/uip-mcast6.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/multicast/uip-mcast6-engines.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/multicast/uip-mcast6-route.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/multicast/smrf.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/multicast/esmrf.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/multicast/roll-tm.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/multicast/uip-mcast6-stats.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/multicast/mpl.h :
+build/iotlab/m3/obj/uip-udp-packet.o: ../../os/net/ipv6/uip-udp-packet.c \
+ ../../os/contiki.h ../../../arch/platform/iotlab/./contiki-conf.h \
+ project-conf.h ../../../arch/platform/iotlab/./iotlab-def.h \
+ ../../../arch/platform/iotlab/m3/board-def.h \
+ ../../os/contiki-default-conf.h ../../os/sys/process.h ../../os/sys/pt.h \
+ ../../os/sys/lc.h ../../os/sys/lc-switch.h ../../os/sys/cc.h \
+ ../../os/sys/cc-gcc.h ../../os/sys/autostart.h ../../os/sys/process.h \
+ ../../os/sys/timer.h ../../os/sys/clock.h ../../os/sys/ctimer.h \
+ ../../os/sys/etimer.h ../../os/sys/etimer.h ../../os/sys/rtimer.h \
+ ../../os/dev/watchdog.h ../../../arch/platform/iotlab/./rtimer-arch.h \
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer_delay.h \
+ ../../os/sys/pt.h ../../os/sys/clock.h \
+ ../../os/net/ipv6/uip-udp-packet.h ../../os/net/ipv6/uip.h \
+ ../../os/net/ipv6/uipopt.h ../../os/net/ipv6/uipbuf.h \
+ ../../os/net/linkaddr.h ../../os/net/ipv6/tcpip.h \
+ ../../os/net/ipv6/multicast/uip-mcast6.h \
+ ../../os/net/ipv6/multicast/uip-mcast6-engines.h \
+ ../../os/net/ipv6/multicast/uip-mcast6-route.h \
+ ../../os/net/ipv6/multicast/smrf.h ../../os/net/ipv6/multicast/esmrf.h \
+ ../../os/net/ipv6/multicast/roll-tm.h \
+ ../../os/net/ipv6/multicast/uip-mcast6-stats.h \
+ ../../os/net/ipv6/multicast/mpl.h
+../../os/net/ipv6/uip-udp-packet.c :
+ ../../os/contiki.h ../../../arch/platform/iotlab/./contiki-conf.h :
+ project-conf.h ../../../arch/platform/iotlab/./iotlab-def.h :
+ ../../../arch/platform/iotlab/m3/board-def.h :
+ ../../os/contiki-default-conf.h ../../os/sys/process.h ../../os/sys/pt.h :
+ ../../os/sys/lc.h ../../os/sys/lc-switch.h ../../os/sys/cc.h :
+ ../../os/sys/cc-gcc.h ../../os/sys/autostart.h ../../os/sys/process.h :
+ ../../os/sys/timer.h ../../os/sys/clock.h ../../os/sys/ctimer.h :
+ ../../os/sys/etimer.h ../../os/sys/etimer.h ../../os/sys/rtimer.h :
+ ../../os/dev/watchdog.h ../../../arch/platform/iotlab/./rtimer-arch.h :
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer_delay.h :
+ ../../os/sys/pt.h ../../os/sys/clock.h :
+ ../../os/net/ipv6/uip-udp-packet.h ../../os/net/ipv6/uip.h :
+ ../../os/net/ipv6/uipopt.h ../../os/net/ipv6/uipbuf.h :
+ ../../os/net/linkaddr.h ../../os/net/ipv6/tcpip.h :
+ ../../os/net/ipv6/multicast/uip-mcast6.h :
+ ../../os/net/ipv6/multicast/uip-mcast6-engines.h :
+ ../../os/net/ipv6/multicast/uip-mcast6-route.h :
+ ../../os/net/ipv6/multicast/smrf.h ../../os/net/ipv6/multicast/esmrf.h :
+ ../../os/net/ipv6/multicast/roll-tm.h :
+ ../../os/net/ipv6/multicast/uip-mcast6-stats.h :
+ ../../os/net/ipv6/multicast/mpl.h :

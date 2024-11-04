@@ -1,95 +1,45 @@
 build/iotlab/m3/obj/csma-security.o: \
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/csma/csma-security.c \
- ../iot-lab-contiki-ng/contiki-ng/os/contiki.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/./contiki-conf.h \
- project-conf.h ../iot-lab-contiki-ng/arch/platform/iotlab/./iotlab-def.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/m3/board-def.h \
- ../iot-lab-contiki-ng/contiki-ng/os/contiki-default-conf.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/lc.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/lc-switch.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/cc.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/cc-gcc.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/autostart.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/timer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/ctimer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/rtimer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/dev/watchdog.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/./rtimer-arch.h \
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer_delay.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/csma/csma.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/mac.h \
- ../iot-lab-contiki-ng/contiki-ng/os/dev/radio.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/packetbuf.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/linkaddr.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/llsec802154.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/framer/frame802154.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uipopt.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uipbuf.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/tcpip.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/csma/csma-security.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/tsch/tsch-conf.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/netstack.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/framer/framer.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/csma/anti-replay.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/framer/framer-802154.h \
- ../iot-lab-contiki-ng/contiki-ng/os/lib/ccm-star.h \
- ../iot-lab-contiki-ng/contiki-ng/os/lib/aes-128.h \
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/csma/ccm-star-packetbuf.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/log.h \
- ../iot-lab-contiki-ng/contiki-ng/os/sys/log-conf.h
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/csma/csma-security.c :
- ../iot-lab-contiki-ng/contiki-ng/os/contiki.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/./contiki-conf.h :
- project-conf.h ../iot-lab-contiki-ng/arch/platform/iotlab/./iotlab-def.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/m3/board-def.h :
- ../iot-lab-contiki-ng/contiki-ng/os/contiki-default-conf.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/lc.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/lc-switch.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/cc.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/cc-gcc.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/autostart.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/process.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/timer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/ctimer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/etimer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/rtimer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/dev/watchdog.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/./rtimer-arch.h :
- ../iot-lab-contiki-ng/arch/platform/iotlab/openlab/lib/soft_timer_delay.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/pt.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/clock.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/csma/csma.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/mac.h :
- ../iot-lab-contiki-ng/contiki-ng/os/dev/radio.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/packetbuf.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/linkaddr.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/llsec802154.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/framer/frame802154.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uip.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uipopt.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/uipbuf.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/ipv6/tcpip.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/csma/csma-security.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/tsch/tsch-conf.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/netstack.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/framer/framer.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/csma/anti-replay.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/framer/framer-802154.h :
- ../iot-lab-contiki-ng/contiki-ng/os/lib/ccm-star.h :
- ../iot-lab-contiki-ng/contiki-ng/os/lib/aes-128.h :
- ../iot-lab-contiki-ng/contiki-ng/os/net/mac/csma/ccm-star-packetbuf.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/log.h :
- ../iot-lab-contiki-ng/contiki-ng/os/sys/log-conf.h :
+ ../../os/net/mac/csma/csma-security.c ../../os/contiki.h \
+ ../../../arch/platform/iotlab/./contiki-conf.h project-conf.h \
+ ../../../arch/platform/iotlab/./iotlab-def.h \
+ ../../../arch/platform/iotlab/m3/board-def.h \
+ ../../os/contiki-default-conf.h ../../os/sys/process.h ../../os/sys/pt.h \
+ ../../os/sys/lc.h ../../os/sys/lc-switch.h ../../os/sys/cc.h \
+ ../../os/sys/cc-gcc.h ../../os/sys/autostart.h ../../os/sys/process.h \
+ ../../os/sys/timer.h ../../os/sys/clock.h ../../os/sys/ctimer.h \
+ ../../os/sys/etimer.h ../../os/sys/etimer.h ../../os/sys/rtimer.h \
+ ../../os/dev/watchdog.h ../../../arch/platform/iotlab/./rtimer-arch.h \
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer_delay.h \
+ ../../os/sys/pt.h ../../os/sys/clock.h ../../os/net/mac/csma/csma.h \
+ ../../os/net/mac/mac.h ../../os/dev/radio.h ../../os/net/packetbuf.h \
+ ../../os/net/linkaddr.h ../../os/net/mac/llsec802154.h \
+ ../../os/net/mac/framer/frame802154.h ../../os/net/ipv6/uip.h \
+ ../../os/net/ipv6/uipopt.h ../../os/net/ipv6/uipbuf.h \
+ ../../os/net/ipv6/tcpip.h ../../os/net/mac/csma/csma-security.h \
+ ../../os/net/mac/tsch/tsch-conf.h ../../os/net/netstack.h \
+ ../../os/net/mac/framer/framer.h ../../os/net/mac/csma/anti-replay.h \
+ ../../os/net/mac/framer/framer-802154.h ../../os/lib/ccm-star.h \
+ ../../os/lib/aes-128.h ../../os/net/mac/csma/ccm-star-packetbuf.h \
+ ../../os/sys/log.h ../../os/sys/log-conf.h
+ ../../os/net/mac/csma/csma-security.c ../../os/contiki.h :
+ ../../../arch/platform/iotlab/./contiki-conf.h project-conf.h :
+ ../../../arch/platform/iotlab/./iotlab-def.h :
+ ../../../arch/platform/iotlab/m3/board-def.h :
+ ../../os/contiki-default-conf.h ../../os/sys/process.h ../../os/sys/pt.h :
+ ../../os/sys/lc.h ../../os/sys/lc-switch.h ../../os/sys/cc.h :
+ ../../os/sys/cc-gcc.h ../../os/sys/autostart.h ../../os/sys/process.h :
+ ../../os/sys/timer.h ../../os/sys/clock.h ../../os/sys/ctimer.h :
+ ../../os/sys/etimer.h ../../os/sys/etimer.h ../../os/sys/rtimer.h :
+ ../../os/dev/watchdog.h ../../../arch/platform/iotlab/./rtimer-arch.h :
+ ../../../arch/platform/iotlab/openlab/lib/soft_timer_delay.h :
+ ../../os/sys/pt.h ../../os/sys/clock.h ../../os/net/mac/csma/csma.h :
+ ../../os/net/mac/mac.h ../../os/dev/radio.h ../../os/net/packetbuf.h :
+ ../../os/net/linkaddr.h ../../os/net/mac/llsec802154.h :
+ ../../os/net/mac/framer/frame802154.h ../../os/net/ipv6/uip.h :
+ ../../os/net/ipv6/uipopt.h ../../os/net/ipv6/uipbuf.h :
+ ../../os/net/ipv6/tcpip.h ../../os/net/mac/csma/csma-security.h :
+ ../../os/net/mac/tsch/tsch-conf.h ../../os/net/netstack.h :
+ ../../os/net/mac/framer/framer.h ../../os/net/mac/csma/anti-replay.h :
+ ../../os/net/mac/framer/framer-802154.h ../../os/lib/ccm-star.h :
+ ../../os/lib/aes-128.h ../../os/net/mac/csma/ccm-star-packetbuf.h :
+ ../../os/sys/log.h ../../os/sys/log-conf.h :
