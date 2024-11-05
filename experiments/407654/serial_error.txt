@@ -1,0 +1,13 @@
+1730753783.515893;Aggregator started
+1730753786.171684;m3-133;Connection closed
+1730757386.397818;Stopping
+Traceback (most recent call last):
+  File "/usr/local/bin/serial_aggregator", line 24, in <module>
+    iotlabaggregator.serial.main()
+  File "/usr/local/lib/python3.7/dist-packages/iotlabaggregator/serial.py", line 286, in main
+    aggregator.run()
+  File "/usr/local/lib/python3.7/dist-packages/iotlabaggregator/serial.py", line 194, in run
+    self.read_input()
+  File "/usr/local/lib/python3.7/dist-packages/iotlabaggregator/serial.py", line 201, in read_input
+    line = input()
+OSError: [Errno 5] Input/output error
