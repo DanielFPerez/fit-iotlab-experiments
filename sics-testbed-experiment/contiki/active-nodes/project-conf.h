@@ -41,7 +41,7 @@
 
 #define CC2538_RF_CONF_TX_POWER 0xFF
 
-#define DEPLOYMENT_MAPPING deployment_sics
+#define DEPLOYMENT_MAPPING deployment_fit_iot_lab_lille
 
 #include "net/ipv6/multicast/uip-mcast6-engines.h"
 #ifndef UIP_MCAST6_CONF_ENGINE

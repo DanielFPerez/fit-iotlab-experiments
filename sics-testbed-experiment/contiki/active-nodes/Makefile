@@ -1,7 +1,9 @@
 CONTIKI_PROJECT = tagalong
-include Makefile.local
 
-PLATFORMS_ONLY = zoul sky
+#CONTIKI=../../../iot-lab-contiki-ng/contiki-ng
+CONTIKI=../../../../iot-lab-contiki-ng-priv/contiki-ng
+
+PLATFORMS_ONLY = zoul sky iotlab m3
 
 all: $(CONTIKI_PROJECT)
 

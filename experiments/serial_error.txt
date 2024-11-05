@@ -1,0 +1,40 @@
+1730797668.120697;Aggregator started
+1730797668.121670;m3-107;Connection closed
+1730797668.122524;m3-107;Connection closed
+1730797668.123469;m3-148;(<class 'ConnectionRefusedError'>, ConnectionRefusedError(111, 'Connection refused'), <traceback object at 0x7f2cbac96888>)
+1730797668.123637;m3-149;(<class 'ConnectionRefusedError'>, ConnectionRefusedError(111, 'Connection refused'), <traceback object at 0x7f2cbac96888>)
+1730797668.125164;m3-253;(<class 'ConnectionRefusedError'>, ConnectionRefusedError(111, 'Connection refused'), <traceback object at 0x7f2cbac96888>)
+1730797668.125432;m3-263;Connection closed
+1730797668.125646;m3-263;Connection closed
+1730797668.126096;m3-284;Connection closed
+1730797668.126268;m3-284;Connection closed
+1730797668.126388;m3-285;(<class 'ConnectionRefusedError'>, ConnectionRefusedError(111, 'Connection refused'), <traceback object at 0x7f2cbac96888>)
+1730797668.126777;m3-301;(<class 'ConnectionRefusedError'>, ConnectionRefusedError(111, 'Connection refused'), <traceback object at 0x7f2cbac96888>)
+1730797668.127582;m3-35;(<class 'ConnectionRefusedError'>, ConnectionRefusedError(111, 'Connection refused'), <traceback object at 0x7f2cbac96888>)
+1730797668.129873;m3-148;Connection closed
+1730797668.130060;m3-148;Connection closed
+1730797668.130158;m3-148;Connection closed
+1730797668.130259;m3-149;Connection closed
+1730797668.130371;m3-149;Connection closed
+1730797668.130457;m3-149;Connection closed
+1730797668.130549;m3-253;Connection closed
+1730797668.130683;m3-253;Connection closed
+1730797668.130770;m3-253;Connection closed
+1730797668.130909;m3-285;Connection closed
+1730797668.131024;m3-285;Connection closed
+1730797668.131105;m3-285;Connection closed
+1730797668.131196;m3-301;Connection closed
+1730797668.131302;m3-301;Connection closed
+1730797668.131383;m3-301;Connection closed
+1730797668.131473;m3-35;Connection closed
+1730797668.131581;m3-35;Connection closed
+1730797668.131663;m3-35;Connection closed
+1730797668.463810;m3-242;(<class 'OSError'>, OSError(113, 'No route to host'), <traceback object at 0x7f2cbac96908>)
+1730797668.465279;m3-242;Connection closed
+1730797668.465543;m3-242;Connection closed
+1730797668.465655;m3-242;Connection closed
+1730797668.815917;m3-268;(<class 'OSError'>, OSError(113, 'No route to host'), <traceback object at 0x7f2cbac96948>)
+1730797668.817445;m3-268;Connection closed
+1730797668.817702;m3-268;Connection closed
+1730797668.817815;m3-268;Connection closed
+1730801266.616511;Stopping

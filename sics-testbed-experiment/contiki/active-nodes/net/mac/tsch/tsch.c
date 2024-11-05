@@ -167,6 +167,29 @@ static void packet_input(void);
 /* Getters and setters */
 
 /*---------------------------------------------------------------------------*/
+/* Set ctimer to send a keepalive message after expiration of TSCH_KEEPALIVE_TIMEOUT */
+void
+tsch_schedule_keepalive(void)
+{
+  /* Pick a delay in the range [tsch_current_ka_timeout*0.9, tsch_current_ka_timeout[ */
+  if(!tsch_is_coordinator && tsch_is_associated && tsch_current_ka_timeout > 0) {
+    unsigned long delay = (tsch_current_ka_timeout - tsch_current_ka_timeout / 10)
+      + random_rand() % (tsch_current_ka_timeout / 10);
+    ctimer_set(&keepalive_timer, delay, keepalive_send, NULL);
+  }
+}
+/*---------------------------------------------------------------------------*/
+/* Set ctimer to send a keepalive message immediately */
+void
+tsch_schedule_keepalive_immediately(void)
+{
+  /* Pick a delay in the range [tsch_current_ka_timeout*0.9, tsch_current_ka_timeout[ */
+  if(!tsch_is_coordinator && tsch_is_associated) {
+    ctimer_set(&keepalive_timer, 0, keepalive_send, NULL);
+  }
+}
+
+/*---------------------------------------------------------------------------*/
 void
 tsch_set_coordinator(int enable)
 {
@@ -325,28 +348,6 @@ keepalive_send(void *ptr)
     } else {
       LOG_ERR("no timesource - KA not sent\n");
     }
-  }
-}
-/*---------------------------------------------------------------------------*/
-/* Set ctimer to send a keepalive message after expiration of TSCH_KEEPALIVE_TIMEOUT */
-void
-tsch_schedule_keepalive(void)
-{
-  /* Pick a delay in the range [tsch_current_ka_timeout*0.9, tsch_current_ka_timeout[ */
-  if(!tsch_is_coordinator && tsch_is_associated && tsch_current_ka_timeout > 0) {
-    unsigned long delay = (tsch_current_ka_timeout - tsch_current_ka_timeout / 10)
-      + random_rand() % (tsch_current_ka_timeout / 10);
-    ctimer_set(&keepalive_timer, delay, keepalive_send, NULL);
-  }
-}
-/*---------------------------------------------------------------------------*/
-/* Set ctimer to send a keepalive message immediately */
-void
-tsch_schedule_keepalive_immediately(void)
-{
-  /* Pick a delay in the range [tsch_current_ka_timeout*0.9, tsch_current_ka_timeout[ */
-  if(!tsch_is_coordinator && tsch_is_associated) {
-    ctimer_set(&keepalive_timer, 0, keepalive_send, NULL);
   }
 }
 /*---------------------------------------------------------------------------*/

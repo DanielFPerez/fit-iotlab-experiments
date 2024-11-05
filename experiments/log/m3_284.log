@@ -1,0 +1,44 @@
+2024-11-05 10:07:28,946 :: INFO :: Start experiment: perezram-407665
+2024-11-05 10:07:28,950 :: INFO :: Control node : Starting of control node serial interface
+2024-11-05 10:07:28,954 :: INFO :: Control node : reset
+2024-11-05 10:07:28,959 :: INFO :: Reset Control Node
+2024-11-05 10:07:31,752 :: INFO :: Control node : start power of open node
+2024-11-05 10:07:31,771 :: INFO :: Node OpenOCD: Setup of openocd node
+2024-11-05 10:07:34,790 :: ERROR :: Error Open Node tty not visible: /dev/iotlab/ttyON_M3
+2024-11-05 10:07:34,795 :: INFO :: Node OpenOCD: flash of openocd node
+2024-11-05 10:07:34,798 :: INFO :: Flash firmware on OpenOCD: /usr/lib/python3.8/site-packages/gateway_code/static/m3_idle.elf
+2024-11-05 10:07:34,968 :: WARNING :: Node OpenOCD: flash of openocd node FAILED: ret = 1
+2024-11-05 10:07:34,979 :: WARNING :: Node OpenOCD: Setup of openocd node FAILED: ret = 2
+2024-11-05 10:07:34,984 :: INFO :: Control node : Start experiment
+2024-11-05 10:07:35,058 :: INFO :: Control Node set time delay: 14843 us
+2024-11-05 10:07:35,083 :: INFO :: Control node : profile configuration
+2024-11-05 10:07:35,086 :: INFO :: Configure profile on Control Node
+2024-11-05 10:07:35,152 :: INFO :: Start experiment succeeded
+2024-11-05 10:07:35,155 :: WARNING :: Gateway Manager : Start experiment FAILED: ret = 2
+2024-11-05 10:07:35,159 :: ERROR :: REST: Start experiment with errors: ret: 2
+2024-11-05 10:07:45,998 :: WARNING :: serial redirection: /dev/iotlab/ttyON_M3 not found
+2024-11-05 10:08:54,535 :: INFO :: Gateway Manager : Flash of node
+2024-11-05 10:08:54,540 :: INFO :: Flash firmware on open node: /tmp/tmp7xs4v7ox--firmware2276245339132118318-udp-client.iotlab
+2024-11-05 10:08:54,579 :: INFO :: Node OpenOCD: flash of openocd node
+2024-11-05 10:08:54,583 :: INFO :: Flash firmware on OpenOCD: /tmp/tmp7xs4v7ox--firmware2276245339132118318-udp-client.iotlab
+2024-11-05 10:08:54,755 :: WARNING :: Node OpenOCD: flash of openocd node FAILED: ret = 1
+2024-11-05 10:08:54,760 :: ERROR :: Flash firmware failed on open node: 1
+2024-11-05 10:08:54,763 :: WARNING :: Gateway Manager : Flash of node FAILED: ret = 1
+2024-11-05 11:07:47,555 :: INFO :: Gateway Manager : Stop experiment
+2024-11-05 11:07:47,560 :: INFO :: Stop experiment
+2024-11-05 11:07:47,564 :: INFO :: Control node : stop of the experiment
+2024-11-05 11:07:47,569 :: INFO :: Control node : profile configuration
+2024-11-05 11:07:47,572 :: INFO :: Configure profile on Control Node
+2024-11-05 11:07:47,626 :: INFO :: Control node : start power of open node
+2024-11-05 11:07:47,658 :: INFO :: Node OpenOCD: teardown of openocd node
+2024-11-05 11:07:50,675 :: ERROR :: Error Open Node tty not visible: /dev/iotlab/ttyON_M3
+2024-11-05 11:07:50,679 :: INFO :: openocd node debugger stop
+2024-11-05 11:07:51,202 :: INFO :: Node OpenOCD: flash of openocd node
+2024-11-05 11:07:51,205 :: INFO :: Flash firmware on OpenOCD: /usr/lib/python3.8/site-packages/gateway_code/static/m3_idle.elf
+2024-11-05 11:07:51,379 :: WARNING :: Node OpenOCD: flash of openocd node FAILED: ret = 1
+2024-11-05 11:07:51,384 :: WARNING :: Node OpenOCD: teardown of openocd node FAILED: ret = 2
+2024-11-05 11:07:51,387 :: INFO :: Control node : Stop control node serial interface
+2024-11-05 11:07:51,391 :: INFO :: Control node : stop power of open node
+2024-11-05 11:07:51,437 :: INFO :: Control node : reset
+2024-11-05 11:07:51,441 :: INFO :: Reset Control Node
+2024-11-05 11:07:54,183 :: INFO :: Stop experiment succeeded
